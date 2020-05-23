@@ -1,6 +1,6 @@
 {
   "name": "dpd-tracking",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Node-parser for tracking the tracks of the postal service DPD",
   "main": "lib/index.js",
   "types": "lib/dpd.d.ts",

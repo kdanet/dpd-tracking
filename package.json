@@ -1,5 +1,5 @@
 {
-  "name": "dpd-tracker",
+  "name": "dpd-tracking",
   "version": "1.0.0",
   "description": "Simple Node-parser for tracking the tracks of the postal service DPD",
   "main": "lib/index.js",

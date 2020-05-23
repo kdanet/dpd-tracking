@@ -1,0 +1,49 @@
+{
+  "name": "dpd-tracker",
+  "version": "1.0.0",
+  "description": "Simple Node-parser for tracking the tracks of the postal service DPD",
+  "main": "lib/index.js",
+  "types": "lib/dpd.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepublish": "npm run build && npm test"
+  },
+  "keywords": [
+    "dpd",
+    "mail",
+    "delivery",
+    "track",
+    "tracker",
+    "tracking",
+    "parser",
+    "postal service"
+  ],
+  "author": "kdanet",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdanet/dpd-tracking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kdanet/dpd-tracking/issues"
+  },
+  "homepage": "https://github.com/kdanet/dpd-tracking#readme"
+}

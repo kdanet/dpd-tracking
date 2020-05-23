@@ -1,5 +1,6 @@
 # dpd-tracking
 Simple Node-parser for tracking the tracks of the postal service DPD
+Only dpd.ru
 
 ### Install ###
 

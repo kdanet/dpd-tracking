@@ -1,4 +1,6 @@
 # dpd-tracking
+[![NPM](https://nodei.co/npm/dpd-tracking.png?compact=true)](https://nodei.co/npm/dpd-tracking/)  
+  
 Simple Node-parser for tracking the tracks of the postal service DPD  
 Only dpd.ru
 
